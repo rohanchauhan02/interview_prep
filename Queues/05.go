@@ -1,5 +1,7 @@
 package queues
 
+import "fmt"
+
 type circularQueue struct {
 	data        []int
 	size        int
@@ -17,13 +19,42 @@ func NewCircularQueue(k int) *circularQueue {
 	}
 }
 
-func (q *circularQueue) Enqueue() {}
+func (q *circularQueue) Enqueue(val int) bool {
+	if q.IsFull() {
+		fmt.Println("Queue is full")
+		return false
+	}
+	q.rear = (q.rear + 1) % q.size
+	q.data[q.rear] = val
+	q.count++
+	return true
+}
 
-func (q *circularQueue) Dequeue() {}
+func (q *circularQueue) Dequeue() bool {
+	if q.IsEmpty() {
+		fmt.Println("Queue is empty")
+		return false
+	}
+	q.front = (q.front + 1) % q.size
+	q.count--
+	return true
+}
 
-func (q *circularQueue) Front() {}
+func (q *circularQueue) Front() int {
+	if q.IsEmpty() {
+		fmt.Println("Queue is empty")
+		return -1
+	}
+	return q.data[q.front]
+}
 
-func (q *circularQueue) Rear() {}
+func (q *circularQueue) Rear() int {
+	if q.IsEmpty() {
+		fmt.Println("Queue is empty")
+		return -1
+	}
+	return q.data[q.rear]
+}
 
 func (q *circularQueue) IsEmpty() bool {
 	return q.count == 0

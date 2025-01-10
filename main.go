@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	array "github.com/rohanchauhan02/50_DSA/Array"
-	recursion "github.com/rohanchauhan02/50_DSA/Recursion"
-	str "github.com/rohanchauhan02/50_DSA/String"
+	array "github.com/rohanchauhan02/interview_prep/Array"
+	recursion "github.com/rohanchauhan02/interview_prep/Recursion"
+	str "github.com/rohanchauhan02/interview_prep/String"
 )
 
 func main() {
@@ -33,8 +33,8 @@ func _02() {
 	// fmt.Println("02. ", str.ReverseStr(s))
 	// fmt.Println("03. ", str.LongestSubstring(s1))
 	fmt.Println("04. ", str.IsAnagram("listen", "silent"))
-	fmt.Println("06. ",str.FirstNonRepeatingChar("helloh"))
-	fmt.Println("07. ",str.Palindrome("racecar"))
+	fmt.Println("06. ", str.FirstNonRepeatingChar("helloh"))
+	fmt.Println("07. ", str.Palindrome("racecar"))
 }
 
 // recursion
