@@ -1,155 +1,105 @@
 # Interview Prepration
 
-# **50 Go Interview questions**
+## **50 Go Interview questions**
 
 ---
 
 ## **Core Go Language Questions**
 
 1. What are the key differences between Go and other programming languages like Java or Python?
-   Answer:- Simplicity, built-in concurrency (goroutines), static typing, garbage collection, and no inheritance.
 2. Explain how Go manages memory, especially garbage collection.
-   Answer:- Go uses a garbage collector for memory management, focusing on simplicity and efficiency.
 3. What is the significance of the `defer` keyword in Go?
-   Answer:- Defers execution of a function until the surrounding function returns; useful for cleanup.
 4. How are pointers used in Go? How do they differ from C/C++ pointers?
-   Answer:-
 5. Can you explain the use of `select` in Go channels?
-   Answer:- 
 6. What is the difference between `sync.Mutex` and `sync.RWMutex`?
-   Answer:-
 7. How does Go handle concurrency, and what are the benefits of its approach?
-   Answer:-
 8. What is the purpose of an empty struct (`struct{}`) in Go?
-   Answer:-
 9. Explain the differences between `interface{}` and specific interfaces in Go.
-   Answer:-
 10. How does Go handle error management compared to exceptions in other languages?
-   Answer:-
 
 ---
 
 ## **Data Structures & Types**
 
 1. How are slices implemented in Go, and how do they differ from arrays?
-   Answer:-
 2. Explain the internal workings of a `map` in Go.
-   Answer:-
 3. What are some best practices for managing structs and their methods?
-   Answer:-
 4. How does Go's `reflect` package work, and when should it be used?
-   Answer:-
 5. What are some limitations of Go’s type system, and how can they be mitigated?
-   Answer:-
 
 ---
 
 ## **Concurrency**
 
 1. How does Go’s goroutine scheduler work under the hood?
-   Answer:-
 2. Compare channels and wait groups in Go for synchronization.
-   Answer:-
 3. What are some common patterns for avoiding deadlocks in Go?
-   Answer:-
 4. How would you implement a worker pool using Go?
-   Answer:-
 5. Can you explain the purpose and use of the `context` package in Go?
-   Answer:-
 
 ---
 
 ## **Performance Optimization**
 
 1. What are some techniques for profiling and optimizing Go applications?
-   Answer:-
 2. How would you manage memory leaks in Go?
-   Answer:-
 3. Explain how to reduce contention in concurrent Go applications.
-   Answer:-
 4. When should you use buffered versus unbuffered channels?
-   Answer:-
 5. What are the advantages and disadvantages of using goroutines?
-   Answer:-
 
 ---
 
 ## **Testing**
 
 1. How do you write unit tests in Go?
-   Answer:-
 2. What is the purpose of table-driven tests in Go?
-   Answer:-
 3. How would you use `testing.T` and `testing.B` for benchmarking in Go?
-   Answer:-
 4. How can you mock dependencies in Go for testing purposes?
-   Answer:-
 5. Explain how the `go test` command works and its key flags.
-   Answer:-
 
 ---
 
 ## **Project Architecture**
 
 1. What are some best practices for structuring a Go project?
-   Answer:-
 2. How do you manage dependencies in Go modules (`go mod`)?
-   Answer:-
 3. How do you implement logging in a Go application?
-   Answer:-
 4. What are some strategies for versioning and backward compatibility in Go APIs?
-   Answer:-
 5. How do you handle configuration management in Go?
-   Answer:-
 
 ---
 
 ## **Networking & Web Development**
 
 1. How does Go handle HTTP requests and responses using the `net/http` package?
-   Answer:-
 2. Explain how you would implement middleware in Go.
-   Answer:-
 3. What are the best practices for securing a web application built in Go?
-   Answer:-
 4. How do you manage long-lived connections in Go, such as WebSockets or gRPC streams?
-   Answer:-
 5. What are the advantages of using Go for microservices?
-   Answer:-
 
 ---
 
 ## **Advanced Topics**
 
 1. How do you implement and use custom `error` types in Go?
-   Answer:-
 2. What is the purpose of the `unsafe` package, and when should it be used?
-   Answer:-
 3. Explain the differences between `panic` and `recover` in Go.
-   Answer:-
 4. How does Go’s `sync.Pool` improve performance in high-load scenarios?
-   Answer:-
 5. What are some strategies for managing large-scale Go applications?
-   Answer:-
 
 ---
 
 ## **Real-World Scenarios**
 
 1. How do you debug a memory issue in a Go application?
-   Answer:-
 2. What are some common pitfalls when using Go for distributed systems?
-   Answer:-
 3. How would you design a scalable queue system using Go?
-   Answer:-
 4. Explain your approach to implementing observability in a Go application.
-   Answer:-
 5. How do you handle cross-platform builds in Go?
-   Answer:-
 
 ---
 
-# **50 DSA questions**
+### **50 DSA questions**
 
 ## Arrays & Strings
 
@@ -241,7 +191,7 @@
 
  ---
 
-# **50 SOLID principles and design pattern questions**
+### **50 SOLID principles and design pattern questions**
 
 ## **SOLID Principles**
 
@@ -314,7 +264,7 @@
 
 ---
 
-# **50 advanced MySQL and PostgreSQL questions**
+### **50 advanced MySQL and PostgreSQL questions**
 
 ---
 
